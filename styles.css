@@ -1,0 +1,176 @@
+body
+{
+    margin:0;
+}
+
+.container
+{
+	width:1170px;
+	margin:auto;
+}
+.www
+{
+    width:40px;
+    height:40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border: 0px;
+    border-radius:10px;
+}
+
+.GALLERY img
+{
+    width: 200px;
+    height: 200px;
+
+}
+
+.top
+{
+    background:#55415F;
+    overflow: hidden;
+}
+.top .words
+{
+	float:right;
+	width:40%;
+	margin:-10px 0;
+}
+.top .words input[type="text"],.top .words input[type="password"]
+{   
+    color: aqua;
+	background:#353535;
+	width:30%;
+	margin-bottom:10px;
+	padding:8px;
+    border:0;
+	border-radius:5px;
+}
+
+.top .words input[type="submit"]
+{
+	background:#9D81A9;
+    width:22%;
+	padding:8px 20px;
+	color:#fff;
+	text-transform:uppercase;
+    border:0;
+	border-radius:5px;
+}
+ul li
+{
+	display:inline-block;
+	padding:0 5px;
+}
+ul li a
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+
+
+
+.begining
+{
+	overflow:hidden;
+	padding:50px 0;
+}
+.begining .logo
+{
+	float:left;
+	width:40%;
+}
+.begining .bar
+{
+	float:left;
+	width:60%;
+}
+.begining .logo h1
+{
+	margin:0;
+	text-transform:uppercase;
+}
+.begining .logo p
+{
+	margin-top:5px;
+	text-transform:capitalize;
+	color:#959595
+}
+.begining .bar ul li a
+{
+	color:darkgoldenrod;
+	text-transform:uppercase;
+}
+.begining .bar ul li a:hover
+{
+	border-bottom:3px solid #55415F;
+	padding-bottom:10px;
+}
+
+
+
+.about
+{
+	overflow:hidden;
+	background:#EBEBEB;
+	padding-top:20px;
+}
+.about .image 
+{
+	float:left;
+	width:50%;
+}
+
+.about .info
+{
+	float:left;
+	width:40%;
+	margin-left:10%;
+}
+
+.about .image img
+{
+	width:100%;
+	border-radius:300px;
+}
+
+.about .info h1
+{
+	padding-top:150px;
+	color:#333333;
+	text-transform:uppercase;
+}
+
+.about .info p
+{
+	line-height:1.6;
+	color:#959595
+}
+
+hr
+{
+	margin:-1px;
+	color:#383838;
+}
+.footer
+{
+	padding:30px;
+	background:#202020;
+	color:#888888;
+	overflow:hidden;
+}
+
+.footer .rights 
+{
+	float:left;
+	width:68%;
+	padding-left:2%;
+}
+
+.footer .maker
+{
+	float:left;
+	width:15%;
+	padding-left:15%;
+}
